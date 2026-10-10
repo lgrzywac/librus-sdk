@@ -9,7 +9,7 @@ import {
 const homeWorkSchema = v.looseObject({
   AddDate: v.string(),
   Category: v.union([apiRefOrJsonSchema, v.null()]),
-  Class: v.union([apiRefOrJsonSchema, v.null()]),
+  Class: v.exactOptional(v.union([apiRefOrJsonSchema, v.null()])),
   Content: v.string(),
   CreatedBy: v.union([apiRefOrJsonSchema, v.null()]),
   Date: v.string(),
@@ -18,6 +18,7 @@ const homeWorkSchema = v.looseObject({
   Subject: v.exactOptional(v.union([apiRefOrJsonSchema, v.null()])),
   TimeFrom: v.union([v.string(), v.null()]),
   TimeTo: v.union([v.string(), v.null()]),
+  VirtualClass: v.exactOptional(v.union([apiRefOrJsonSchema, v.null()])),
 });
 
 export const homeWorksResponseSchema = v.looseObject({
