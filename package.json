@@ -1,15 +1,15 @@
 {
   "name": "librus-sdk",
-  "version": "0.7.3",
+  "version": "0.7.4",
   "description": "TypeScript SDK and CLI for Librus family portal and Gateway API 2.0 flows.",
   "author": "Andrey Koltsov",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andrewkoltsov/librus-sdk.git"
+    "url": "git+https://github.com/lgrzywac/librus-sdk.git"
   },
-  "homepage": "https://github.com/andrewkoltsov/librus-sdk#readme",
+  "homepage": "https://github.com/lgrzywac/librus-sdk#readme",
   "bugs": {
-    "url": "https://github.com/andrewkoltsov/librus-sdk/issues"
+    "url": "https://github.com/lgrzywac/librus-sdk/issues"
   },
   "type": "module",
   "main": "dist/sdk/index.js",
