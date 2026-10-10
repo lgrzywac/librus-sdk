@@ -14,7 +14,7 @@ export interface HomeWork {
   Subject?: JsonObject | ApiRef | null;
   TimeFrom: string | null;
   TimeTo: string | null;
-  VirtualClass: JsonObject | ApiRef | null;
+  VirtualClass?: JsonObject | ApiRef | null;
 }
 
 export interface HomeWorksResponse extends SynergiaResponseEnvelope {
